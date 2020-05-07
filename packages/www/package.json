@@ -1,0 +1,45 @@
+{
+  "name": "@web/www",
+  "version": "0.0.1",
+  "author": {
+    "name": "Michiel Bouw",
+    "url": "http://michielbouw.nl"
+  },
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "typecheck": "tsc --noEmit --skipLibCheck",
+    "lint": "eslint . --ignore-path ../../.eslintignore --ext ts --ext tsx --ext js --ext jsx",
+    "lint:fix": "eslint --fix . --ignore-path ../../.eslintignore --ext ts --ext tsx --ext js --ext jsx"
+  },
+  "peerDependencies": {
+    "@types/jest": ">=23.3.12",
+    "@types/node": ">=10.12.18",
+    "@types/react": ">=16.7.18",
+    "@types/react-dom": ">=16.0.11",
+    "@typescript-eslint/eslint-plugin": "^2.30.0",
+    "@typescript-eslint/parser": "^2.30.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-simple-import-sort": "^5.0.0",
+    "node-sass": ">=4.14.0",
+    "react": ">=16.8.0-alpha.0",
+    "react-dom": ">=16.8.0-alpha.0",
+    "react-scripts": ">=2.1.3",
+    "typescript": ">=3.7.2"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@web/shared": "*",
+    "@web/utils": "*"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
