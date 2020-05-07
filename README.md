@@ -51,7 +51,12 @@ Note: this project is initialized with Yarn.
 
 ### Adding / removing packages
 
-To add a new package
+To add a new package create a new folder in under `packages` and copy the<br>
+`.eslint.json`, `package.json`, `tsconfig.json` from another similar project in here.<br>
+After that you can setup your project how you like it.
+
+(you can also extend the custom scripts from the main `package.json`<br>
+or already include in as dependency for another package).
 
 After changing the packages run `yarn clean && npx lerna bootstrap` to clean & reinit the workspaces.
 
