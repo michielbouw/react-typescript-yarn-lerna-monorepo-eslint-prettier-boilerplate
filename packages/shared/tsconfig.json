@@ -2,7 +2,11 @@
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "build",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
@@ -13,10 +17,16 @@
     "noUnusedLocals": true,
     "noImplicitAny": true,
     "declaration": true,
+    "skipLibCheck": true,
     "target": "es5",
     "module": "esnext",
     "jsx": "preserve"
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "build"]
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "**/node_modules/**",
+    "build"
+  ]
 }

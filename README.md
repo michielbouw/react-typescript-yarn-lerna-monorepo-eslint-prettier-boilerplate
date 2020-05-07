@@ -20,9 +20,9 @@ This project is initialized with [Create React App](https://github.com/facebook/
 
 The project now consists of 3 packages.
 
-- www: create-react-app with TypeScript (react v16.8.0-alpha.0, react-scripts v2.1.3)
-- shared: react components with TypeScript (react v16.8.0-alpha.0)
-- utils: shared functions with TypeScript
+- **www**: create-react-app with TypeScript (react v16.8.0-alpha.0, react-scripts v2.1.3)
+- **shared**: react components with TypeScript (react v16.8.0-alpha.0)
+- **utils**: shared functions with TypeScript
 
 ## Get Started
 
