@@ -18,7 +18,8 @@
     "test:www": "lerna run test --scope=\"@web/shared\" --scope=\"@web/utils\" --scope=\"@web/www\" --stream",
     "lint:www": "lerna run lint --scope=\"@web/shared\" --scope=\"@web/utils\" --scope=\"@web/www\" --stream",
     "lint:fix:www": "lerna run lint:fix --scope=\"@web/shared\" --scope=\"@web/utils\" --scope=\"@web/www\" --stream",
-    "clean": "lerna clean"
+    "clean": "lerna clean",
+    "clean:update": "lerna clean && lerna bootstrap"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.7.0",
@@ -38,7 +39,7 @@
     "prettier": "^2.0.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.0.1",
+    "react-scripts": "3.1.2",
     "typescript": "~3.7.2"
   },
   "workspaces": {
