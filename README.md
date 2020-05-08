@@ -26,7 +26,7 @@ The project now consists of 3 packages.
 
 ## Get Started
 
-### Make sure you run Node.js v10+
+### Make sure you run Node.js v10.15+
 
 To install check ([Node.js installation](https://nodejs.org/en/) or [Node Version Manager installation](https://github.com/nvm-sh/nvm)).
 
