@@ -8,7 +8,7 @@ This project is initialized with [Create React App](https://github.com/facebook/
 
 - TypeScript
 - React (v16.8.0+, *tested up to v16.13.1*)
-- react-scripts (react-scripts v3.1.0, *tested up to v3.1.0, from createReactApp)
+- react-scripts (react-scripts v3+, *tested up to v3.1.2, from createReactApp)
 - react-testing-library (not Enzyme)
 - Yarn Workspaces (multiple packages architecture)
 - Lerna (tool for managing the monorepo packages)
@@ -20,7 +20,7 @@ This project is initialized with [Create React App](https://github.com/facebook/
 
 The project now consists of 3 packages.
 
-- **www**: create-react-app with TypeScript (react v16.13.1+, react-scripts v3.1.0)
+- **www**: create-react-app with TypeScript (react v16.13.1+, react-scripts v3.1.2)
 - **shared**: react components with TypeScript (react v16.13.1+)
 - **utils**: shared functions with TypeScript
 
