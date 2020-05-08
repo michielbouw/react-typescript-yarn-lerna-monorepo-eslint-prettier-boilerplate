@@ -2,7 +2,7 @@ import './App.scss';
 
 import { Header } from '@web/shared';
 import { logger } from '@web/utils';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 
 import logo from './logo.svg';
 
@@ -16,7 +16,7 @@ const App = () => {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Header>
-          React (v16.8.0-alpha.0), Typescript, Yarn & Lerna Monorepo
+          React (v16.8.0), Typescript, Yarn & Lerna Monorepo
         </Header>
         <p>
           Starting point for a Typescript, React, Yarn & Lerna monorepo project

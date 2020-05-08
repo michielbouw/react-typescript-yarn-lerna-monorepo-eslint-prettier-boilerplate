@@ -7,8 +7,8 @@ Starting point for a Typescript, React (v16.8.0-alpha.0), Yarn & Lerna monorepo 
 This project is initialized with [Create React App](https://github.com/facebook/create-react-app) consisting of:
 
 - TypeScript
-- React (v16.8.0-alpha.0)
-- react-scripts (react-scripts v2.1.3 from createReactApp)
+- React (v16.8.0)
+- react-scripts (react-scripts v3.0.1+ from createReactApp)
 - react-testing-library (not Enzyme)
 - Yarn Workspaces (multiple packages architecture)
 - Lerna (tool for managing the monorepo packages)
@@ -20,8 +20,8 @@ This project is initialized with [Create React App](https://github.com/facebook/
 
 The project now consists of 3 packages.
 
-- **www**: create-react-app with TypeScript (react v16.8.0-alpha.0, react-scripts v2.1.3)
-- **shared**: react components with TypeScript (react v16.8.0-alpha.0)
+- **www**: create-react-app with TypeScript (react v16.8.0, react-scripts v3.0.1+)
+- **shared**: react components with TypeScript (react v16.8.0)
 - **utils**: shared functions with TypeScript
 
 ## Get Started
