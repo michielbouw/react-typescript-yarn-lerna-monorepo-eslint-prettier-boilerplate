@@ -22,6 +22,14 @@ const App = () => {
           Starting point for a Typescript, React, Yarn & Lerna monorepo project
           with full setup for ESLint and Prettier.
         </p>
+        <a
+          className="App-link"
+          href="https://github.com/facebook/create-react-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Get more info on Create React App
+      </a>
       </header>
     </div>
   );

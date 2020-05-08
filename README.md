@@ -1,6 +1,6 @@
-# React (v16.8.0-alpha.0), Typescript, Yarn & Lerna Monorepo
+# React (v16.8.0+), Typescript, Yarn & Lerna Monorepo
 
-Starting point for a Typescript, React (v16.8.0-alpha.0), Yarn & Lerna monorepo project with full setup for ESLint and Prettier.
+Starting point for a Typescript, React (v16.8.0+, *tested up to v16.13.1*), Yarn & Lerna monorepo project with full setup for ESLint and Prettier.
 
 ## Stack
 

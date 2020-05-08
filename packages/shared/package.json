@@ -16,7 +16,6 @@
     "lint:fix": "eslint --fix . --ignore-path ../../.eslintignore --ext ts --ext tsx --ext js --ext jsx"
   },
   "peerDependencies": {
-    "@types/jest": ">=24.0.0",
     "@types/node": ">=13.0.0",
     "@types/react": ">=16.8.0",
     "@types/react-dom": ">=16.8.0",
