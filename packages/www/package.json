@@ -1,6 +1,6 @@
 {
   "name": "@web/www",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "Michiel Bouw",
     "url": "http://michielbouw.nl"
@@ -35,7 +35,7 @@
     "typescript": ">=3.7.2"
   },
   "devDependencies": {
-    "@web/shared": "^1.0.0",
+    "@web/shared": "^1.0.2",
     "@web/utils": "^1.0.0"
   },
   "browserslist": {
