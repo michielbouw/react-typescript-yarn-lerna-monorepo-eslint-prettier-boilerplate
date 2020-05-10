@@ -20,7 +20,7 @@
     "skipLibCheck": true,
     "target": "es5",
     "module": "esnext",
-    "jsx": "preserve"
+    "jsx": "react"
   },
   "include": [
     "src"
