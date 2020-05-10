@@ -58,7 +58,11 @@ After that you can setup your project how you like it.
 (you can also extend the custom scripts from the main `package.json`<br>
 or already include in as dependency for another package).
 
-After changing the packages run `yarn clean && npx lerna bootstrap` to clean & reinit the workspaces.
+After changing the packages run `yarn clean:update` to clean & reinit the workspaces.
+
+After changing the external libraries or peerDependencies it is good to clean the repo<br>
+by removing the node_modules folder `rm -rf node_modules` and reinstalling `yarn install`.
+And after that run `yarn clean:update` to clean & reinit the workspaces.
 
 ## Development Scripts
 
