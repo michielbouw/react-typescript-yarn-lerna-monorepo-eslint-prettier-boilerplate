@@ -1,6 +1,6 @@
 {
   "name": "@web/utils",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": {
     "name": "Michiel Bouw",
     "url": "http://michielbouw.nl"
@@ -23,7 +23,5 @@
     "eslint-plugin-prettier": "^3.1.3",
     "eslint-plugin-simple-import-sort": "^5.0.3",
     "typescript": ">=3.7.2"
-  },
-  "dependencies": {},
-  "devDependencies": {}
+  }
 }

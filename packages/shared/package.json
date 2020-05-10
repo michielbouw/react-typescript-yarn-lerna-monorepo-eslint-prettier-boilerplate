@@ -1,6 +1,6 @@
 {
   "name": "@web/shared",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": {
     "name": "Michiel Bouw",
     "url": "http://michielbouw.nl"
@@ -27,7 +27,5 @@
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0",
     "typescript": ">=3.7.2"
-  },
-  "dependencies": {},
-  "devDependencies": {}
+  }
 }

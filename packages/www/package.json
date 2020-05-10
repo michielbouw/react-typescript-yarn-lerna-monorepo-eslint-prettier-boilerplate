@@ -1,6 +1,6 @@
 {
   "name": "@web/www",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": {
     "name": "Michiel Bouw",
     "url": "http://michielbouw.nl"
@@ -34,10 +34,9 @@
     "react-scripts": "3.4.0",
     "typescript": ">=3.7.2"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@web/shared": "*",
-    "@web/utils": "*"
+    "@web/shared": "^1.0.0",
+    "@web/utils": "^1.0.0"
   },
   "browserslist": {
     "production": [
