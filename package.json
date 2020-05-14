@@ -5,7 +5,6 @@
     "url": "http://michielbouw.nl"
   },
   "license": "MIT",
-  "private": true,
   "scripts": {
     "start": "lerna run start --parallel",
     "build": "lerna run build --parallel",
