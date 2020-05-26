@@ -17,6 +17,7 @@
     "noUnusedLocals": true,
     "noImplicitAny": true,
     "declaration": true,
+    "declarationMap": true,
     "skipLibCheck": true,
     "target": "es5",
     "module": "esnext",
