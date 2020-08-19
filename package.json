@@ -4,6 +4,7 @@
     "name": "Michiel Bouw",
     "url": "http://michielbouw.nl"
   },
+  "private": true,
   "license": "MIT",
   "scripts": {
     "start": "lerna run start --parallel",
